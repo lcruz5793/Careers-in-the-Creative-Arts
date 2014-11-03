@@ -19,6 +19,7 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+ 
 }
 
 
@@ -29,12 +30,17 @@ This will set the default for the entire site.
 body{
     font-family: sans-serif; /*change to add a proper font stack */
     font-size: 100%;
-    line-height: 1; /* usually something between 1.3 and 1.6 is most readable without feeling too far apart */
+    line-height: 1;
+	background-color:#FC0; 
+	
+	/* usually something between 1.3 and 1.6 is most readable without feeling too far apart */
 }
 
 /*Usually at least a bottom margin is given to separate paragraphs. font-size and font-family are inherited from body*/
 p{
-    margin: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 25px;
 }
 
 /**
@@ -253,7 +259,7 @@ abbr[title], dfn[title] {
 }
 
 
-<!-- main_nav start-->
+ main_nav start
 #main_nav{
 clear:both;
 }  
@@ -303,7 +309,7 @@ margin-bottom:1em;
 position:fixed;
 float: right; 
 }
-<!--Main_nav end-->
+Main_nav end
 
 
 /* ==========================
@@ -330,7 +336,7 @@ It should also be noted that there is only one media query  because this CSS mov
     left:0;
     width:100%;
     overflow:hidden;
-    background-color: #555;
+    background-color:#36F;
 }
 
 #main_nav li{
